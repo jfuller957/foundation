@@ -1,12 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Foundation Sandbox</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    Hello
+    <!-- Typography -->
+    <div class="row">
+      <!-- Heading -->
+      <h1>Heading <small>Secondary Text</small></h1>
+      <h2>Heading <small>Secondary Text</small></h2>
+      <h2 class="subheader">Heading <small>Secondary Text</small></h2>
+      <p class="lead">
+        <strong>Lorem.</strong>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Magnam consequatur
+        <em>Lorem, ipsum dolor.</em> officia reiciendis expedita quisquam
+        dignissimos unde nam voluptate <a href="#">Lorem, ipsum.</a> facere sit!
+      </p>
+      <p>
+        <strong>Lorem.</strong>Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Magnam consequatur
+        <em>Lorem, ipsum dolor.</em> officia reiciendis expedita quisquam
+        dignissimos unde nam voluptate <a href="#">Lorem, ipsum.</a> facere sit!
+      </p>
+      <p>Server up time</p>
+
+      <div class="stat">230 Days</div>
+
+      <hr />
+
+      <!-- Alignment Classes -->
+      <p class="text-left">Left Aligned Text.</p>
+      <p class="text-center">Center Aligned Text.</p>
+      <p class="text-right">Right Aligned Text.</p>
+      <p class="text-justify">Justified Text.</p>
+
+      <!-- Floats -->
+      <div class="callout clearfix">
+        <a href="#" class="button float-left">Left</a>
+        <a href="#" class="button float-right">Right</a>
+      </div>
+
+      <hr />
+
+      <code>&lt;div class="myClass"&gt;Hello World &lt;/div&gt;</code>
+      <p>Press <kbd>Cmd+r</kbd> (or <kbd>Ctrl+r</kbd> on Windows)</p>
+
+      <hr />
+
+      <blockquote>
+        This is a blockquote from Foundation.
+        <cite>John Doe</cite>
+      </blockquote>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
